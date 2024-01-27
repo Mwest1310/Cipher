@@ -62,7 +62,7 @@ function Cipher(){
             <h1>Cipher</h1>
             
             <div id = "message-text">
-            <label>Please input your message and specify how far you wish your characters to be spread:</label> <br />
+            <label>Please input your message and specify how far you wish your letters to be shifted:</label> <br />
                 <textarea id="text" value={message} onChange={handleMessageChange} />
             </div>
             
